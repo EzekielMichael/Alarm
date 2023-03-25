@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.container {
+	width: 230px;
+	height: 150px;
+	background-color: grey;
+	border: 3px solid orange;
+	border-radius: 15%;
+	text-align: center;
+	padding: 10px;
+}
+
+.container .content select{
+	margin:10px 0 15px 0;
+	width: 100px;
+	height: 40px;
+	border: 4px solid navy;
+	border-radius: 40%;
+	cursor: pointer;
+	display: inline;
+	background: #fef9de;
+	justify-content: space-between;
+}
+.container .button button{
+	width: 110px;
+	height: 40px;
+	border: 4px solid navy;
+	border-radius: 40%;
+	display: inline;
+	cursor: pointer;
+	padding: 5px 0 5px 0;
+}
+.container h1{
+	font-size:40px;
+}
